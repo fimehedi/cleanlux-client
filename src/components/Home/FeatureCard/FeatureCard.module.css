@@ -1,0 +1,29 @@
+.title {
+    color: var(--primary-color);
+}
+
+.description {
+    color: var(--text-secondary-alt);
+}
+
+
+.card:hover {
+    background-color: var(--secondary-color);
+    transition: var(--primary-transition);
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.card:hover .title {
+    color: var(--white-alt);
+}
+
+.card:hover .description {
+    color: var(--white-alt);
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+}

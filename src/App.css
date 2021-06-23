@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #14287b;
+  --secondary-color: #287ff9;
+  --text-primary-alt: #111111;
+  --text-secondary-alt: #646464;
+  --white-alt: #f6f6f6;
+  --primary-transition: all 0.5s ease-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-primary {
+  color: var(--primary-color) !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-primary-alt {
+  color: var(--text-primary-alt) !important;
 }
 
-.App-link {
-  color: #61dafb;
+.text-secondary {
+  color: var(--secondary-color) !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-secondary-alt {
+  color: var(--text-secondary-alt) !important;
+}
+
+
+.btn-primary {
+  background-color: var(--primary-color);
+  font-weight: 500;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+  transition: var(--primary-transition);
+  color: var(--white-alt) !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
+.border-radius {
+  border-radius: 5px !important;
+}
+
+.border-radius-alt {
+  border-radius: 10px !important;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+a:hover {
+  text-decoration: none;
 }

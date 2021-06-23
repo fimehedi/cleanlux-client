@@ -1,0 +1,28 @@
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.quoteContainer {
+    width: 64px;
+    height: 64px;
+    color: white;
+    border-radius: 64px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -32px;
+    transition: var(--primary-transition);
+}
+
+.testimonial-card:hover .quoteContainer {
+    background-color: var(--secondary-color);
+    transform: rotate(180deg);
+}
+
+.quoteContainer .icon {
+    font-size: 24px;
+}

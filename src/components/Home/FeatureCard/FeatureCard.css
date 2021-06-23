@@ -1,0 +1,46 @@
+.iconContainer {
+    height: 64px;
+    width: 64px;
+    margin: 0 auto;
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    transition: var(--primary-transition);
+}
+
+.card-container:hover .icon {
+    height: 64px;
+    width: 64px;
+}
+
+.man {
+    background-image: url('./icons/man.svg');
+}
+
+.card-container:hover .man {
+    background-image: url('./icons/man-hover.svg');
+
+}
+
+.tag {
+    background-image: url('./icons/tag.svg');
+}
+
+.card-container:hover .tag {
+    background-image: url('./icons/tag-hover.svg');
+
+}
+
+.like {
+    background-image: url('./icons/like.svg');
+}
+
+.card-container:hover .like {
+    background-image: url('./icons/like-hover.svg');
+
+}

@@ -1,0 +1,25 @@
+.imgContainer {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+}
+
+.imgContainer img {
+    width: 100%;
+    transition: var(--primary-transition);
+}
+
+.service-card:hover .imgContainer img {
+    transform: scale(1.2);
+}
+
+.service-card {
+    background-color: white;
+    cursor: pointer;
+    transition: var(--primary-transition);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    background-color: var(--white-alt);
+}

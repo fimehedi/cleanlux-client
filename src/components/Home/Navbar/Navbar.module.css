@@ -1,0 +1,8 @@
+.navbarContainer .nav-bar {
+    transition: var(--primary-transition) !important;
+}
+
+
+.navbarContainer .nav-link:hover {
+    color: var(--secondary-color) !important;
+}

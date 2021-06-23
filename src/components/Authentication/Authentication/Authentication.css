@@ -1,0 +1,15 @@
+.loginForm {
+    padding: 40px;
+    width: 500px;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .loginForm,
+    .socialOption,
+    .social-auth-container {
+        width: 100%;
+    }
+
+
+}

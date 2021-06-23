@@ -1,0 +1,39 @@
+.headerMain .title {
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.button {
+    padding: 12px 30px !important;
+
+}
+
+.button span {
+    margin-right: 10px;
+}
+
+.btnIcon {
+    transition: var(--primary-transition);
+}
+
+.button:hover .btnIcon {
+    transform: translateX(10px);
+}
+
+@media only screen and (max-width: 1024px) {
+    .headerMain .title {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .headerMain .headerRow {
+        flex-direction: column-reverse;
+    }
+
+    .headerMain .title {
+        margin-top: 20px;
+        font-size: 2rem;
+    }
+}

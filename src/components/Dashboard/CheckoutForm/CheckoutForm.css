@@ -1,0 +1,10 @@
+.StripeElement {
+    width: 100%;
+    padding: 11px;
+    background-color: white;
+}
+
+.card-border {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}

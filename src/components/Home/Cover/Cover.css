@@ -1,0 +1,23 @@
+.cover-section {
+    background-image: url(./banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 400px;
+}
+
+.cover-section .heading {
+    margin-left: 500px;
+    color: var(--primary-color);
+}
+
+@media only screen and (max-width: 768px) {
+
+    .cover-section .heading {
+        color: var(--white-alt);
+        margin-left: 0;
+    }
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,37 @@
+.status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.pending {
+    color: #ff8282;
+    background-color: #ffe3e3;
+}
+
+.done {
+    color: #3cb473;
+    background: #c6ffe0;
+}
+
+.onGoing {
+    color: #138496;
+    background: #50e7ff;
+}
+
+.booking-card {
+    position: relative;
+}
+
+thead th {
+    border: 0 !important;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
